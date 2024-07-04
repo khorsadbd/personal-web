@@ -1,25 +1,25 @@
 *{
     margin: 0;
     padding: 0;
+  
     
 }
 body{
    font-family: "Montserrat", sans-serif;
-   background-color: #cc08c2;
+   background-image: url(./images/bg.jpg);
+ 
 }
-
-
+/* menubar css or responsive start */
 nav.main-nav{
     text-decoration: none;
     list-style: none;
-    background:#3106dd ;
+    background:#cecccc ;
     height: 80px;
     width: 100%;
     text-transform: uppercase;
-    
 }
 nav label.logo{
-    color: white;
+    color: rgb(37, 36, 36);
     font-size: 35px;
     line-height: 80px;
     padding: 0px 80px;
@@ -39,7 +39,7 @@ nav label.logo{
    
 }
 .main-nav ul li a{
-    color: #ffffff;
+    color: #242323;
     font-size: 18px;
     
     border-radius: 5px;
@@ -54,7 +54,7 @@ a.active, a:hover{
     font-size: 30px;
     float: right;
     line-height: 80px;
-    color: #ffffff;
+    color: #eb0b0b;
     margin-right: 40px;
     cursor: pointer;
     display: none;
@@ -64,7 +64,7 @@ a.active, a:hover{
 }
 @media(max-width:952px){
     nav label.logo{
-        color: white;
+        color: #302d2d;
         font-size: 20px;
         line-height: 80px;
         padding: 0px 50px;
@@ -73,7 +73,7 @@ a.active, a:hover{
     }
     ul li{
         padding-left: 50px;
-        color: #ffffff;
+        color: #242222;
         font-size: 10px;
         
         border-radius: 5px;
@@ -88,7 +88,7 @@ a.active, a:hover{
         
     }
     .main-nav ul {
-        background-color: #535555;
+        background-color: #ffffff;
     }
 
     
@@ -107,4 +107,109 @@ a.active, a:hover{
     #check:checked ~ ul{
         left: 0;
     }
+}
+/* Manubar css and responsive end*/
+/* section2 start*/
+
+.container1{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.container1 img{
+    width: 100%;
+}
+.container1 h1{
+    color: #687693;
+    font-size: 60px;
+    line-height: 80px;
+    text-align: center;
+    margin-top: 170px;
+    
+
+}
+.deve{
+    
+    color: #687693;
+    font-size: 70px;
+    text-align: left;
+    margin: 30px 20px;
+    line-height: 50px;
+    
+}
+.kea{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: relative;
+    display: inline-block;
+    padding-right: 120px;
+    margin-left: 60px;
+    padding-bottom: 10px;
+}
+.cntbtn{
+    
+    display: inline-block;
+    text-decoration: none;
+    background-color: #141313;
+    color: #ffffff;
+    padding: 15px 15px;
+    position: relative;
+    left: 120px;
+    border-radius: 7px;
+    
+  }
+.ex8{
+    height: 200px;
+    width: 180px;
+    background-color: rgba(46, 46, 43,0.9);
+    position: relative;
+    bottom: 200px;
+    left: 350px;
+    padding-bottom: 10px;
+}
+.ex8 h3{
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 600px;
+    font-size: 100px;
+    color: #ffffff;
+
+}
+.ex8 p{
+    text-align: center;
+    font-size: 20px;
+    color: #cecccc;
+    padding-bottom: 5500px;
+    display: inline-block;
+    position: absolute;
+    padding-left: 10px;
+}
+.conAbout{
+    padding-top: 100px;
+}
+.about{
+    text-align: center;
+    color: #d10505;
+    font-size: 25px;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+}
+.welcome{
+    color: #323232;
+    line-height: 30px;
+    font-size: 25px;
+}
+.exp{
+    color: #3b38386b;
+    font-size: 18px;
+    margin-block-start: 10px;
+}
+.pknow{
+    display: block;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    line-height: 30px;
+    font-size: 17px;
 }
